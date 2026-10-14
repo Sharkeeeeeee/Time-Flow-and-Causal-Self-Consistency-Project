@@ -1,0 +1,758 @@
+{
+  "candidates": [
+    {
+      "candidate": "generic_full__legacy",
+      "architecture": "generic_full",
+      "method": "legacy",
+      "blocks": {
+        "tfd": {
+          "qubits": 8,
+          "counts": {
+            "prx": 21302,
+            "cz": 1552
+          },
+          "routing_swaps": 348,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit0": {
+          "qubits": 10,
+          "counts": {
+            "prx": 36479,
+            "cz": 2594
+          },
+          "routing_swaps": 626,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit1": {
+          "qubits": 10,
+          "counts": {
+            "prx": 36484,
+            "cz": 2594
+          },
+          "routing_swaps": 626,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "local_syk": {
+          "qubits": 4,
+          "counts": {
+            "prx": 3229,
+            "cz": 219
+          },
+          "routing_swaps": 56,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "schmidt_weight": {
+          "qubits": 4,
+          "counts": {
+            "prx": 6839,
+            "cz": 492
+          },
+          "routing_swaps": 108,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        }
+      },
+      "selection_counts": {
+        "cz": 6959,
+        "prx": 97494
+      },
+      "local_operator_error": 1.1842316565822809e-12,
+      "tfd_density_error": 3.871418929688095e-12,
+      "source_CQ_error": [
+        2.1183979793633353e-12,
+        2.1186717163343526e-12
+      ]
+    },
+    {
+      "candidate": "generic_full__frame",
+      "architecture": "generic_full",
+      "method": "frame",
+      "blocks": {
+        "tfd": {
+          "qubits": 8,
+          "counts": {
+            "prx": 3124,
+            "cz": 1552
+          },
+          "routing_swaps": 348,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit0": {
+          "qubits": 10,
+          "counts": {
+            "prx": 5288,
+            "cz": 2594
+          },
+          "routing_swaps": 626,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit1": {
+          "qubits": 10,
+          "counts": {
+            "prx": 5289,
+            "cz": 2594
+          },
+          "routing_swaps": 626,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "local_syk": {
+          "qubits": 4,
+          "counts": {
+            "prx": 466,
+            "cz": 219
+          },
+          "routing_swaps": 56,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "schmidt_weight": {
+          "qubits": 4,
+          "counts": {
+            "prx": 1000,
+            "cz": 492
+          },
+          "routing_swaps": 108,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        }
+      },
+      "selection_counts": {
+        "cz": 6959,
+        "prx": 14167
+      },
+      "local_operator_error": 1.540323057380425e-12,
+      "tfd_density_error": 7.374678599760808e-12,
+      "source_CQ_error": [
+        4.4471740590638665e-12,
+        4.44719973674808e-12
+      ]
+    },
+    {
+      "candidate": "generic_full__frame_merge",
+      "architecture": "generic_full",
+      "method": "frame_merge",
+      "blocks": {
+        "tfd": {
+          "qubits": 8,
+          "counts": {
+            "prx": 2784,
+            "cz": 1544
+          },
+          "routing_swaps": 348,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit0": {
+          "qubits": 10,
+          "counts": {
+            "prx": 4779,
+            "cz": 2586
+          },
+          "routing_swaps": 626,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit1": {
+          "qubits": 10,
+          "counts": {
+            "prx": 4778,
+            "cz": 2586
+          },
+          "routing_swaps": 626,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "local_syk": {
+          "qubits": 4,
+          "counts": {
+            "prx": 433,
+            "cz": 219
+          },
+          "routing_swaps": 56,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "schmidt_weight": {
+          "qubits": 4,
+          "counts": {
+            "prx": 909,
+            "cz": 492
+          },
+          "routing_swaps": 108,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        }
+      },
+      "selection_counts": {
+        "cz": 6935,
+        "prx": 12774
+      },
+      "local_operator_error": 1.5577522192480423e-12,
+      "tfd_density_error": 8.177649091019868e-12,
+      "source_CQ_error": [
+        4.51321641762139e-12,
+        4.513321288769319e-12
+      ]
+    },
+    {
+      "candidate": "real_weights__legacy",
+      "architecture": "real_weights",
+      "method": "legacy",
+      "blocks": {
+        "tfd": {
+          "qubits": 8,
+          "counts": {
+            "prx": 15258,
+            "cz": 1122
+          },
+          "routing_swaps": 256,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit0": {
+          "qubits": 10,
+          "counts": {
+            "prx": 30435,
+            "cz": 2164
+          },
+          "routing_swaps": 534,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit1": {
+          "qubits": 10,
+          "counts": {
+            "prx": 30440,
+            "cz": 2164
+          },
+          "routing_swaps": 534,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "local_syk": {
+          "qubits": 4,
+          "counts": {
+            "prx": 3229,
+            "cz": 219
+          },
+          "routing_swaps": 56,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "schmidt_weight": {
+          "qubits": 4,
+          "counts": {
+            "prx": 792,
+            "cz": 62
+          },
+          "routing_swaps": 16,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        }
+      },
+      "selection_counts": {
+        "cz": 5669,
+        "prx": 79362
+      },
+      "local_operator_error": 1.1842316565822809e-12,
+      "tfd_density_error": 3.314064328749742e-12,
+      "source_CQ_error": [
+        1.8874937634590285e-12,
+        1.8877679535947268e-12
+      ]
+    },
+    {
+      "candidate": "real_weights__frame",
+      "architecture": "real_weights",
+      "method": "frame",
+      "blocks": {
+        "tfd": {
+          "qubits": 8,
+          "counts": {
+            "prx": 2243,
+            "cz": 1122
+          },
+          "routing_swaps": 256,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit0": {
+          "qubits": 10,
+          "counts": {
+            "prx": 4407,
+            "cz": 2164
+          },
+          "routing_swaps": 534,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit1": {
+          "qubits": 10,
+          "counts": {
+            "prx": 4408,
+            "cz": 2164
+          },
+          "routing_swaps": 534,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "local_syk": {
+          "qubits": 4,
+          "counts": {
+            "prx": 466,
+            "cz": 219
+          },
+          "routing_swaps": 56,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "schmidt_weight": {
+          "qubits": 4,
+          "counts": {
+            "prx": 111,
+            "cz": 62
+          },
+          "routing_swaps": 16,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        }
+      },
+      "selection_counts": {
+        "cz": 5669,
+        "prx": 11524
+      },
+      "local_operator_error": 1.540323057380425e-12,
+      "tfd_density_error": 3.3859358496245356e-12,
+      "source_CQ_error": [
+        2.9609891667347077e-12,
+        2.9611067617463745e-12
+      ]
+    },
+    {
+      "candidate": "real_weights__frame_merge",
+      "architecture": "real_weights",
+      "method": "frame_merge",
+      "blocks": {
+        "tfd": {
+          "qubits": 8,
+          "counts": {
+            "prx": 1990,
+            "cz": 1112
+          },
+          "routing_swaps": 256,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit0": {
+          "qubits": 10,
+          "counts": {
+            "prx": 3985,
+            "cz": 2154
+          },
+          "routing_swaps": 534,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit1": {
+          "qubits": 10,
+          "counts": {
+            "prx": 3984,
+            "cz": 2154
+          },
+          "routing_swaps": 534,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "local_syk": {
+          "qubits": 4,
+          "counts": {
+            "prx": 433,
+            "cz": 219
+          },
+          "routing_swaps": 56,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "schmidt_weight": {
+          "qubits": 4,
+          "counts": {
+            "prx": 111,
+            "cz": 62
+          },
+          "routing_swaps": 16,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        }
+      },
+      "selection_counts": {
+        "cz": 5639,
+        "prx": 10392
+      },
+      "local_operator_error": 1.5577522192480423e-12,
+      "tfd_density_error": 3.777952371640155e-12,
+      "source_CQ_error": [
+        3.064772680313625e-12,
+        3.064852959938985e-12
+      ]
+    },
+    {
+      "candidate": "parity_absorb__legacy",
+      "architecture": "parity_absorb",
+      "method": "legacy",
+      "blocks": {
+        "tfd": {
+          "qubits": 8,
+          "counts": {
+            "prx": 8278,
+            "cz": 576
+          },
+          "routing_swaps": 152,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit0": {
+          "qubits": 10,
+          "counts": {
+            "prx": 17003,
+            "cz": 1180
+          },
+          "routing_swaps": 318,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit1": {
+          "qubits": 10,
+          "counts": {
+            "prx": 17008,
+            "cz": 1180
+          },
+          "routing_swaps": 318,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "local_syk": {
+          "qubits": 4,
+          "counts": {
+            "prx": 3229,
+            "cz": 219
+          },
+          "routing_swaps": 56,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "schmidt_weight": {
+          "qubits": 4,
+          "counts": {
+            "prx": 792,
+            "cz": 62
+          },
+          "routing_swaps": 16,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        }
+      },
+      "selection_counts": {
+        "cz": 3155,
+        "prx": 45518
+      },
+      "local_operator_error": 1.1842316565822809e-12,
+      "tfd_density_error": 1.6615700014054085e-12,
+      "source_CQ_error": [
+        8.872269217098378e-13,
+        8.87470482445982e-13
+      ]
+    },
+    {
+      "candidate": "parity_absorb__frame",
+      "architecture": "parity_absorb",
+      "method": "frame",
+      "blocks": {
+        "tfd": {
+          "qubits": 8,
+          "counts": {
+            "prx": 1195,
+            "cz": 576
+          },
+          "routing_swaps": 152,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit0": {
+          "qubits": 10,
+          "counts": {
+            "prx": 2443,
+            "cz": 1180
+          },
+          "routing_swaps": 318,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit1": {
+          "qubits": 10,
+          "counts": {
+            "prx": 2444,
+            "cz": 1180
+          },
+          "routing_swaps": 318,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "local_syk": {
+          "qubits": 4,
+          "counts": {
+            "prx": 466,
+            "cz": 219
+          },
+          "routing_swaps": 56,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "schmidt_weight": {
+          "qubits": 4,
+          "counts": {
+            "prx": 111,
+            "cz": 62
+          },
+          "routing_swaps": 16,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        }
+      },
+      "selection_counts": {
+        "cz": 3155,
+        "prx": 6548
+      },
+      "local_operator_error": 1.540323057380425e-12,
+      "tfd_density_error": 1.5273672071805257e-12,
+      "source_CQ_error": [
+        1.1967655733367882e-12,
+        1.1968843830798259e-12
+      ]
+    },
+    {
+      "candidate": "parity_absorb__frame_merge",
+      "architecture": "parity_absorb",
+      "method": "frame_merge",
+      "blocks": {
+        "tfd": {
+          "qubits": 8,
+          "counts": {
+            "prx": 1109,
+            "cz": 574
+          },
+          "routing_swaps": 152,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit0": {
+          "qubits": 10,
+          "counts": {
+            "prx": 2250,
+            "cz": 1178
+          },
+          "routing_swaps": 318,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "source_bit1": {
+          "qubits": 10,
+          "counts": {
+            "prx": 2249,
+            "cz": 1178
+          },
+          "routing_swaps": 318,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "local_syk": {
+          "qubits": 4,
+          "counts": {
+            "prx": 433,
+            "cz": 219
+          },
+          "routing_swaps": 56,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        },
+        "schmidt_weight": {
+          "qubits": 4,
+          "counts": {
+            "prx": 111,
+            "cz": 62
+          },
+          "routing_swaps": 16,
+          "physical_us": null,
+          "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+        }
+      },
+      "selection_counts": {
+        "cz": 3149,
+        "prx": 6041
+      },
+      "local_operator_error": 1.5577522192480423e-12,
+      "tfd_density_error": 1.5256585252427768e-12,
+      "source_CQ_error": [
+        1.213884976619992e-12,
+        1.2139311490487547e-12
+      ]
+    }
+  ],
+  "chosen": {
+    "candidate": "parity_absorb__frame_merge",
+    "architecture": "parity_absorb",
+    "method": "frame_merge",
+    "blocks": {
+      "tfd": {
+        "qubits": 8,
+        "counts": {
+          "prx": 1109,
+          "cz": 574
+        },
+        "routing_swaps": 152,
+        "physical_us": null,
+        "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+      },
+      "source_bit0": {
+        "qubits": 10,
+        "counts": {
+          "prx": 2250,
+          "cz": 1178
+        },
+        "routing_swaps": 318,
+        "physical_us": null,
+        "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+      },
+      "source_bit1": {
+        "qubits": 10,
+        "counts": {
+          "prx": 2249,
+          "cz": 1178
+        },
+        "routing_swaps": 318,
+        "physical_us": null,
+        "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+      },
+      "local_syk": {
+        "qubits": 4,
+        "counts": {
+          "prx": 433,
+          "cz": 219
+        },
+        "routing_swaps": 56,
+        "physical_us": null,
+        "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+      },
+      "schmidt_weight": {
+        "qubits": 4,
+        "counts": {
+          "prx": 111,
+          "cz": 62
+        },
+        "routing_swaps": 16,
+        "physical_us": null,
+        "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+      }
+    },
+    "selection_counts": {
+      "cz": 3149,
+      "prx": 6041
+    },
+    "local_operator_error": 1.5577522192480423e-12,
+    "tfd_density_error": 1.5256585252427768e-12,
+    "source_CQ_error": [
+      1.213884976619992e-12,
+      1.2139311490487547e-12
+    ]
+  },
+  "baseline": {
+    "candidate": "generic_full__legacy",
+    "architecture": "generic_full",
+    "method": "legacy",
+    "blocks": {
+      "tfd": {
+        "qubits": 8,
+        "counts": {
+          "prx": 21302,
+          "cz": 1552
+        },
+        "routing_swaps": 348,
+        "physical_us": null,
+        "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+      },
+      "source_bit0": {
+        "qubits": 10,
+        "counts": {
+          "prx": 36479,
+          "cz": 2594
+        },
+        "routing_swaps": 626,
+        "physical_us": null,
+        "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+      },
+      "source_bit1": {
+        "qubits": 10,
+        "counts": {
+          "prx": 36484,
+          "cz": 2594
+        },
+        "routing_swaps": 626,
+        "physical_us": null,
+        "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+      },
+      "local_syk": {
+        "qubits": 4,
+        "counts": {
+          "prx": 3229,
+          "cz": 219
+        },
+        "routing_swaps": 56,
+        "physical_us": null,
+        "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+      },
+      "schmidt_weight": {
+        "qubits": 4,
+        "counts": {
+          "prx": 6839,
+          "cz": 492
+        },
+        "routing_swaps": 108,
+        "physical_us": null,
+        "timing_scope": "Angle/site/calibration-dependent PRx and CZ durations required"
+      }
+    },
+    "selection_counts": {
+      "cz": 6959,
+      "prx": 97494
+    },
+    "local_operator_error": 1.1842316565822809e-12,
+    "tfd_density_error": 3.871418929688095e-12,
+    "source_CQ_error": [
+      2.1183979793633353e-12,
+      2.1186717163343526e-12
+    ]
+  },
+  "hardware_executions": 0,
+  "selection_basis": "Resource counts only; no measured-clock or noisy-performance selection",
+  "preserved": {
+    "evidence_audit\\syk_clean_reproduction_v24\\manifest.json": "2e630424892c919cea64b28014336e488a7a6e2984d9b278f2c639261fd5af09",
+    "evidence_audit\\syk_extended_validation\\manifest.json": "3fe19fe455928316a183618122b4795e91e611056268e5c447d52e7b585013d5",
+    "evidence_audit\\syk_hardware_qualification\\manifest.json": "f2ffd32f48c77d8701088ef6e39754b5d25833f9e7455b96851515edc50c41eb",
+    "evidence_audit\\syk_calibration_validation\\manifest.json": "f0e9819a5699280ecf8fcac72e5fd1fd1bc8e4766c803b8cebdb2b0f95535db7",
+    "evidence_audit\\syk_finite_decoder\\manifest.json": "ecc5ccf127561ccea9e02a85ba6461a01441b6f80c1a0ec1a04816ef04502dc8",
+    "evidence_audit\\syk_joint_threshold\\manifest.json": "97ea842e739ede2e16bda23a6c0f471af2cdf707aead478a12862f25f62fd15c",
+    "evidence_audit\\syk_noise_attribution\\manifest.json": "2b33e7c56a5e953564fc65007e7d51fd8094591ce28475ebb12c5c7c11da6e3a",
+    "evidence_audit\\syk_block_zxz\\manifest.json": "8c2ab1182b6dcbef0f5083751d06b8153e6efa64b7e73f78944f34cf572c6924",
+    "evidence_audit\\syk_three_cz\\manifest.json": "6a0b3c4ac15af3cbb40717926010649009fc7fe8da6102c5a963ddd8e3e1545b",
+    "evidence_audit\\syk_shared_basis\\manifest.json": "545c1140af9a7c3e9556333ec7d1c2789d148bc05f9cc5ae0577857dd61f970a",
+    "evidence_audit\\syk_merged_pulse\\manifest.json": "09c7f4ba106c089432403577349cec3d6358ced262fd9ed984f9a09cec1dbfc7",
+    "evidence_audit\\syk_exact_wait\\manifest.json": "2e6e6bffeaf28a67d339543afc3305a9683aec1a32f0ddc1a1ff5d7d7d0dc729",
+    "evidence_audit\\syk_native_schedule\\manifest.json": "72354e5707ebd312ec33f2d6f83e13f50a397d4e02c56c1ddb5362fadaa9118b"
+  }
+}

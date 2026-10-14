@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-14",
+  "recorded_utc": "2026-10-14T13:22:23.022963+00:00",
+  "classification": "Same-project, same-host local execution; no external reviewer",
+  "fast_checks": [
+    {
+      "command": "python -I -S -B plan-a/REPRODUCE_SUMMARY.py",
+      "exit_code": 0,
+      "output": {
+        "rows": 408,
+        "models": 12,
+        "draws_per_model": 3,
+        "mean": 0.712627382528563,
+        "minimum_model_mean": 0.6942280612527657,
+        "minimum_draw": 0.6915533655257272,
+        "model_means_at_least_70_percent": 8,
+        "scope": "Arithmetic from archived simulator probabilities; not a fresh 12-model forward simulation."
+      }
+    },
+    {
+      "command": "python -I -S -B plan-b/REPRODUCE_COSTS.py",
+      "exit_code": 0,
+      "output": {
+        "status": "PASS_PLANNING_ARITHMETIC",
+        "paired_radius": 0.16809964808858985,
+        "target": 0.1,
+        "zero_observed_difference_cannot_pass": true,
+        "necessary_width_shots": 11575,
+        "power_guaranteed": false,
+        "prices_usd": {
+          "small_two_epoch_example": "212.13",
+          "one_full_calibration_example": "529.68",
+          "six_models_three_independent_calibrations": "9534.15"
+        },
+        "rates_checked": "2026-10-14",
+        "pricing_source": "https://aws.amazon.com/braket/pricing/",
+        "hardware_executions": 0,
+        "external_review_established": false
+      }
+    },
+    {
+      "command": "python -I -S -B plan-b/TEST_TEMPORAL_POLICY.py",
+      "exit_code": 0,
+      "output": {
+        "status": "PASS_SYNTHETIC_TEMPORAL_TESTS",
+        "cases": {
+          "valid": "ACCEPTED",
+          "before_snapshot": "REJECTED",
+          "outside_window": "REJECTED",
+          "old_snapshot": "REJECTED",
+          "expires_during_run": "REJECTED",
+          "reversed_times": "REJECTED",
+          "missing_utc": "REJECTED",
+          "bad_age": "REJECTED",
+          "wrong_calibration": "REJECTED"
+        },
+        "hardware_executions": 0
+      }
+    }
+  ],
+  "full_case": {
+    "status": "PASS_FULL_7001_FROZEN_CASE",
+    "source_error": 3.122503692375557e-16,
+    "right_state_error": 2.665881136891131e-15,
+    "transport": {
+      "complete_transport": true,
+      "scheduled_us": 229.46,
+      "event_intervals": 4025
+    },
+    "cases": [
+      {
+        "label": "oracle",
+        "expected_success_probability": 0.7036052773460639,
+        "reference_error": 2.19824158875781e-14,
+        "receiver_error": 1.296200620924303e-14,
+        "readout_error": 1.2559397966072083e-14,
+        "estimator_error": null,
+        "latch_us": 25.95999999999999
+      },
+      {
+        "label": "n2048_d0_nominal",
+        "expected_success_probability": 0.6928188844579499,
+        "reference_error": 2.1094237467877974e-14,
+        "receiver_error": 1.2614915680521798e-14,
+        "readout_error": 1.2184697695261093e-14,
+        "estimator_error": 9.511364005193117e-17,
+        "latch_us": 25.95999999999999
+      },
+      {
+        "label": "n2048_d1_nominal",
+        "expected_success_probability": 0.6967597397944274,
+        "reference_error": 2.1538326677728037e-14,
+        "receiver_error": 1.2614967669265769e-14,
+        "readout_error": 1.2198575483068907e-14,
+        "estimator_error": 1.665335094952104e-16,
+        "latch_us": 25.95999999999999
+      },
+      {
+        "label": "n2048_d2_nominal",
+        "expected_success_probability": 0.6944260884412096,
+        "reference_error": 2.1316282072803006e-14,
+        "receiver_error": 1.2614914204000804e-14,
+        "readout_error": 1.2212453270876722e-14,
+        "estimator_error": 1.8041666010288614e-16,
+        "latch_us": 25.95999999999999
+      }
+    ],
+    "seconds": 118.96680750000087,
+    "scope": "Same-project alternate equations on a frozen schedule/receiver, not independent schedule synthesis or external review.",
+    "hardware_executions": 0,
+    "external_review_established": false,
+    "numpy_version": "2.3.5"
+  },
+  "python_version": "3.12.14",
+  "hardware_executions": 0,
+  "external_review_established": false
+}

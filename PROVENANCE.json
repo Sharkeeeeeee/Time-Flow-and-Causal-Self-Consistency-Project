@@ -1,0 +1,436 @@
+{
+  "status": "LICENSE_SCOPE_SET_AND_SELECTED_RELEASE_CHECKED",
+  "date": "2026-10-14",
+  "files": [
+    {
+      "file": ".gitignore",
+      "kind": "New project-authored release documentation or integrity helper",
+      "source": null,
+      "provenance": "Prepared within this project; AI assistance disclosed.",
+      "sha256": "c718764d74521428111e6ec33e68d77b0d499d54aabe73a284a1b1cbdb7aeaad",
+      "license": "CC-BY-4.0",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "LICENSE",
+      "kind": "New project-authored release documentation or integrity helper",
+      "source": null,
+      "provenance": "Prepared within this project; AI assistance disclosed.",
+      "sha256": "ea6b206aca7a39dce9ea83c1faa0587fce197ab8fc931c7563ab8079055cce50",
+      "license": "MIT",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "LICENSES.md",
+      "kind": "New project-authored release documentation or integrity helper",
+      "source": null,
+      "provenance": "Prepared within this project; AI assistance disclosed.",
+      "sha256": "2c1923b66d740b2a9c9f6446ecae4af932e4c451a40dd4983d51eeba98216444",
+      "license": "CC-BY-4.0",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "LOCAL_CHECKS.json",
+      "kind": "New project-authored release documentation or integrity helper",
+      "source": null,
+      "provenance": "Prepared within this project; AI assistance disclosed.",
+      "sha256": "1f59a4b626418cf32d9cc8b37ceecffff521b30a6aaa08aa6e870dc4d653e098",
+      "license": "CC-BY-4.0",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/estimate_n2048_d0_nominal_seed_7001.npz.b64",
+      "sha256": "4bd14a289281a6601d20cfad4b3fe8ef2e122ecb835fb5f2faab2e53736ca5cd",
+      "kind": "Project-generated frozen numeric input",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/estimate_n2048_d0_nominal_seed_7001.npz",
+        "sha256": "a417e4cf3fb9ccce870aa856cbc22554ae772e3052495ba529b2a4b83c47590f",
+        "transform": "Base64 encoding only; decode before use."
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/estimate_n2048_d1_nominal_seed_7001.npz.b64",
+      "sha256": "1eb2bff0e097762cb8c2ae44a3a679b51343e3404cd60ae1ca3bc11c65a5ca09",
+      "kind": "Project-generated frozen numeric input",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/estimate_n2048_d1_nominal_seed_7001.npz",
+        "sha256": "a38a3cc4f6e4790d354c8f904c38307763b0306ce01c4a6f450b02433610eb5e",
+        "transform": "Base64 encoding only; decode before use."
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/estimate_n2048_d2_nominal_seed_7001.npz.b64",
+      "sha256": "05c12f38df77e689ec478a72e168ccbb858dd58481d831aaa0f652eb10d3a957",
+      "kind": "Project-generated frozen numeric input",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/estimate_n2048_d2_nominal_seed_7001.npz",
+        "sha256": "636c5c02eaa7cba9780db49ff008b39c6588ade6aa2a61c2be5f8a1edb8a686c",
+        "transform": "Base64 encoding only; decode before use."
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/physical64_seed_7001.npz.b64",
+      "sha256": "111bccc2c3d86a9b6494bfb6a51c5e44344c24a8067c4a610e6173dbd001918e",
+      "kind": "Project-generated frozen numeric input",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/physical64_seed_7001.npz",
+        "sha256": "5f83a5b025f1107dac27b65446117803407ea5fcd276923a2cad0f955a15c480",
+        "transform": "Base64 encoding only; decode before use."
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/policy_n2048_d0_nominal_seed_7001.json",
+      "sha256": "c7a37dfffb26101cbb147f113948e251b1911587ad770d2f23fdec3234f670a6",
+      "kind": "Project-generated frozen receiver",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/policy_n2048_d0_nominal_seed_7001.json",
+        "sha256": "c7a37dfffb26101cbb147f113948e251b1911587ad770d2f23fdec3234f670a6",
+        "transform": "none"
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/policy_n2048_d1_nominal_seed_7001.json",
+      "sha256": "0bd05b384d231a521e8ed3aeec665802ee1b7d6584ac17f670433e417ad8f887",
+      "kind": "Project-generated frozen receiver",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/policy_n2048_d1_nominal_seed_7001.json",
+        "sha256": "0bd05b384d231a521e8ed3aeec665802ee1b7d6584ac17f670433e417ad8f887",
+        "transform": "none"
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/policy_n2048_d2_nominal_seed_7001.json",
+      "sha256": "c638c397e408a523a0dd9c5736c47c50e576fb2c395911fa884b010491467c1c",
+      "kind": "Project-generated frozen receiver",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/policy_n2048_d2_nominal_seed_7001.json",
+        "sha256": "c638c397e408a523a0dd9c5736c47c50e576fb2c395911fa884b010491467c1c",
+        "transform": "none"
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/policy_oracle_seed_7001.json",
+      "sha256": "faa7b9b7fddf2dd9d02ff33cff430d2ee7f3856eea70811ab6614c2c9505832f",
+      "kind": "Project-generated frozen receiver",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/policy_oracle_seed_7001.json",
+        "sha256": "faa7b9b7fddf2dd9d02ff33cff430d2ee7f3856eea70811ab6614c2c9505832f",
+        "transform": "none"
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/result64_n2048_d0_nominal_seed_7001.npz.b64",
+      "sha256": "6fa732d44ec91c8cf22234144438236e1f26bcc8ec1a3e3aad3e0bcb8585fc36",
+      "kind": "Project-generated frozen numeric input",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/result64_n2048_d0_nominal_seed_7001.npz",
+        "sha256": "e1f669f4a26c5ba1bf73e3708cd75b8ca8c24262c269163a58993e7653808d69",
+        "transform": "Base64 encoding only; decode before use."
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/result64_n2048_d1_nominal_seed_7001.npz.b64",
+      "sha256": "922a5d7bfa1a3e44f7dd226309b2fd6e28b5c7e5e26d4a9a82a611987ef4862c",
+      "kind": "Project-generated frozen numeric input",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/result64_n2048_d1_nominal_seed_7001.npz",
+        "sha256": "b9e453e684099933ee4b538cd3ed07fda5525c72acb662d2fdc624a76cb3aaa8",
+        "transform": "Base64 encoding only; decode before use."
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/result64_n2048_d2_nominal_seed_7001.npz.b64",
+      "sha256": "d9db8f389e1a9033540b24ced0a5f6d69908fc42fbe38b34a43638f64e72a74e",
+      "kind": "Project-generated frozen numeric input",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/result64_n2048_d2_nominal_seed_7001.npz",
+        "sha256": "bcb2a4e2c1f9e360787b67517649953dd1ffa090a78133795878e41370a60b56",
+        "transform": "Base64 encoding only; decode before use."
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/result64_oracle_seed_7001.npz.b64",
+      "sha256": "70a506a87a1bc9b698e64b397f09bec97a6142ded5d965b8b07aa1d29d0b6acc",
+      "kind": "Project-generated frozen numeric input",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/result64_oracle_seed_7001.npz",
+        "sha256": "2ca4a6239684bd23c17b9c36fa4e07406ced010baa72958883a4e612fa763442",
+        "transform": "Base64 encoding only; decode before use."
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/results.csv",
+      "sha256": "e92f9272133e9ad270f4c3200064c2924213c279652ecc79bc0ddad9bb117e9f",
+      "kind": "All 408 archived endpoint rows",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/results.csv",
+        "sha256": "e92f9272133e9ad270f4c3200064c2924213c279652ecc79bc0ddad9bb117e9f",
+        "transform": "none"
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/results64_seed_7001.json",
+      "sha256": "88d8cd0cfa635799e951a921b63c832b6ac720228f867eaf9b4a5292adaea5ac",
+      "kind": "Project-generated simulator results",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/results64_seed_7001.json",
+        "sha256": "88d8cd0cfa635799e951a921b63c832b6ac720228f867eaf9b4a5292adaea5ac",
+        "transform": "none"
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/schedule_seed_7001.json.gz.b64",
+      "sha256": "54ea4f5231dfc69cc59e062bee439dc22b117d0b8fae58680403286856a6a256",
+      "kind": "Project-generated frozen numeric input",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/schedule_seed_7001.json.gz",
+        "sha256": "0504f346cb6441147302d2225485d297a10a8188b3dcb041d93f888f76b6cc03",
+        "transform": "Base64 encoding only; decode before use."
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/source_resources.json",
+      "sha256": "b81234df43238739df53afcc520127792439b584997c90b291b5d7b7ec5b14bd",
+      "kind": "Resource ledger, not all serialized gate lists",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_source_reduction/resources.json",
+        "sha256": "b81234df43238739df53afcc520127792439b584997c90b291b5d7b7ec5b14bd",
+        "transform": "none"
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/source_seed_7001.npz.b64",
+      "sha256": "5c282032b968b7ff4f639836ad1b1c4ea7e8341beec20ebc00a6ab07056b606e",
+      "kind": "Project-generated frozen numeric input",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/source_seed_7001.npz",
+        "sha256": "90972b091f03648747e0a373cc07620d874837df5abb9bf1d21ea729362346bc",
+        "transform": "Base64 encoding only; decode before use."
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/summary.json",
+      "sha256": "0cb9f565d0ce656668c5224a8848a3031cd3e3160d27febb229a8fe64933ed4c",
+      "kind": "Archived aggregate summary, same-project checks",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/summary.json",
+        "sha256": "0cb9f565d0ce656668c5224a8848a3031cd3e3160d27febb229a8fe64933ed4c",
+        "transform": "none"
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/data/tomography_seed_7001.npz.b64",
+      "sha256": "c66b2286a8a840910eaee5eed5d377a724f44bed1d9b3c56738950b7f2382517",
+      "kind": "Project-generated frozen numeric input",
+      "license": "CC-BY-4.0",
+      "source": {
+        "workspace_file": "evidence_audit/syk_extended_validation/tomography_seed_7001.npz",
+        "sha256": "6e736739ff26306863ce35db2eb91cda35edca128604335ffe7a6a8c83e1d4c9",
+        "transform": "Base64 encoding only; decode before use."
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/README.md",
+      "kind": "New project-authored release documentation or integrity helper",
+      "source": null,
+      "provenance": "Prepared within this project; AI assistance disclosed.",
+      "sha256": "d1fd68198a4771d3c64382d54fab557be52921ff4b0019359313a47267974a6e",
+      "license": "CC-BY-4.0",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/REPRODUCE_FULL_CASE.py",
+      "sha256": "2fc7af1bb888923a5fa6151fbc9b1027e77e16dfc43209f0dc835b5d030994e3",
+      "kind": "Project-authored code adapted for portable public paths",
+      "license": "MIT",
+      "source": {
+        "workspace_file": "evidence_audit/syk_clean_reproduction_v24/bundle/independent_syk_channel.py",
+        "sha256": "308f237e451befd40b419949c493e1400b64088467854a33900d453e1877db46",
+        "transform": "Original equations retained; public data directory, base64 input loader and bounded output wrapper added; private environment checks removed."
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "imports": [
+        "base64",
+        "gzip",
+        "hashlib",
+        "io",
+        "itertools",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "sys",
+        "time"
+      ],
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-a/REPRODUCE_SUMMARY.py",
+      "sha256": "2b1078765a97d079a27cda9f7db08ace219501f01a7aa972b22b4c58244eb5f8",
+      "kind": "New project-authored aggregate helper",
+      "license": "MIT",
+      "source": null,
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "imports": [
+        "csv",
+        "json",
+        "pathlib",
+        "statistics"
+      ],
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-b/README.md",
+      "kind": "New project-authored release documentation or integrity helper",
+      "source": null,
+      "provenance": "Prepared within this project; AI assistance disclosed.",
+      "sha256": "5ceaf78341642081f601dbf00a1bc1854486cb751469070228cd9b21905f29c8",
+      "license": "CC-BY-4.0",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-b/REPRODUCE_COSTS.py",
+      "sha256": "2a80a62fc67e82717f2f96ff9b73c629cd23da3236c05ceb57c0c759ae0c7643",
+      "kind": "New project-authored planning helper",
+      "license": "MIT",
+      "source": null,
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "imports": [
+        "decimal",
+        "json",
+        "math"
+      ],
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-b/TEMPORAL_POLICY_GATE.py",
+      "sha256": "8aeae0b77898a92d22cd19cfdd350c7210e269c6992667e1d3f628527157d08d",
+      "kind": "Project-authored standard-library utility",
+      "license": "MIT",
+      "source": {
+        "workspace_file": "fundraising/plan_b_v31/TEMPORAL_POLICY_GATE.py",
+        "sha256": "8aeae0b77898a92d22cd19cfdd350c7210e269c6992667e1d3f628527157d08d",
+        "transform": "none"
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "imports": [
+        "argparse",
+        "datetime",
+        "json",
+        "math",
+        "pathlib"
+      ],
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "plan-b/TEST_TEMPORAL_POLICY.py",
+      "sha256": "f7b85ba4b59a680dad792a432c41b4fbce4b4a755a3e248414bffe17e6991d20",
+      "kind": "Project-authored standard-library utility",
+      "license": "MIT",
+      "source": {
+        "workspace_file": "fundraising/plan_b_v31/TEST_TEMPORAL_POLICY.py",
+        "sha256": "f7b85ba4b59a680dad792a432c41b4fbce4b4a755a3e248414bffe17e6991d20",
+        "transform": "none"
+      },
+      "provenance": "Project-authored implementation or project-generated simulation; AI assistance disclosed.",
+      "imports": [
+        "importlib.util",
+        "json",
+        "pathlib",
+        "tempfile"
+      ],
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "README.md",
+      "kind": "New project-authored release documentation or integrity helper",
+      "source": null,
+      "provenance": "Prepared within this project; AI assistance disclosed.",
+      "sha256": "12d7155f7b233065ba6c8bdf5666ee3af5d2710427c03d0b61fce90a299a6790",
+      "license": "CC-BY-4.0",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    },
+    {
+      "file": "VERIFY_PUBLIC.py",
+      "kind": "New project-authored release documentation or integrity helper",
+      "source": null,
+      "provenance": "Prepared within this project; AI assistance disclosed.",
+      "sha256": "65b283760372f9eb11454362ed85fc0c7ef9c56b3437051a0c7520c7755e0167",
+      "license": "MIT",
+      "screening": "Reviewed allowlist; no private path/contact/key marker; no third-party vendored code."
+    }
+  ],
+  "scope": "Only allowlisted release files. Source provenance and dependency import review; no claim to legal adjudication or audit of the whole workspace.",
+  "excluded": [
+    "literature PDFs",
+    "CIA releases",
+    "source_snapshots (including GPL-licensed projects)",
+    "third-party library source/binaries",
+    "private fundraising packets and applicant metadata",
+    "provider credentials and contacts"
+  ],
+  "dependencies": [
+    {
+      "name": "NumPy",
+      "redistributed": false,
+      "source": "https://numpy.org/doc/stable/license.html"
+    }
+  ],
+  "provenance_self_hash": "Self excluded here; PUBLIC_MANIFEST.json covers this file."
+}

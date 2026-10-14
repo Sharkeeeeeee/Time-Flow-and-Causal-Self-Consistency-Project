@@ -1,0 +1,4415 @@
+{
+  "seed": 7001,
+  "label": "n2048_d2_nominal",
+  "calibration_resource": [
+    64,
+    64
+  ],
+  "gates": [
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -2.473991092086946
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.6826483431279677
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.5867947435441734
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.770627570885884
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.5691677352125968
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.5734443094481736
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -2.547496389026603
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.444536776453963
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -2.6585365410120154
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.3047550129600065
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.5615137834751236
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 3.0898547365665077
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 0.2217114998203098
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.9067882961287814
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 2.683877619273757
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.42856887584690107
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.3984988559980251
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -1.8258794454904175
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -2.2646330370604044
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 2.9738453009335113
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.3002381756916606
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.5983529135861838
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -2.6303531091744072
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5044713428086813
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -2.1043296811987586
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.20235267794033
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.588483862092919
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.0049924267755603
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -2.4807617266068904
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.09359080615775994
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 2.952655971184869
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.4608253651320053
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -2.8295872211434006
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.9166256294884452
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 2.1578279209182254
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -1.5134769114669187
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.7468181893148929
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -2.75742304997387
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 2.9091725713968795
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -2.4191467787188836
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -0.2725551084884641
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.5723645117096852
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -2.5422152947945174
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.7597847554685586
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -2.594538106077767
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.8216022521798796
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -2.5649894119442616
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.9004921161930675
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -2.833994308233994
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -1.9032848244054221
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 2.0880437368599027
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -2.3039147120333823
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.2720077820985014
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.0788982753566527
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.3105777514150627
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 2.5218273737117123
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.780995565511794
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -2.985257876198972
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -2.306425474613234
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -1.6553528303636122
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -0.3657035700773248
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.9488292630442112
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -1.9309705858861073
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 2.0459675105155544
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.191363476682719
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.2281782542462403
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -0.05669134938333786
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.2795521269198622
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.957475017012663
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 2.3684146840993074
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.3148181005260866
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -2.0368280734905198
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 2.2901632462368826
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -2.151856568351927
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.9478159148110705
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -2.208641838428285
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 2.7031073627624704
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 2.3252778540316066
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": -2.800974502402854
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": -2.4027956244679785
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": -2.3853084145271253
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": -2.43606218010718
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": -3.109442326041344
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": -2.392572552776153
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.33608508116092395
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.8457447944833953
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -2.30552115262747
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 2.8477571457529316
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.6010278538042524
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.5830701154065765
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 2.57562926804613
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.3366666715347222
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -2.7080401292592042
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 2.18746917047158
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.2693903772768171
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 3.093289023926231
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.2213411071442537
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.3035305742535557
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.505776631132628
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -2.686431956973191
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.1904789788190056
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -1.984239975779455
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -2.356405089253193
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 2.790893739371363
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -2.6038221667055788
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.595006712875242
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.609288353393842
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.411592198249633
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -2.4727539795819284
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.341233146912574
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -0.8862142644259965
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.4514213053867455
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -2.0529460274851195
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -2.054525291533606
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 2.162336231824693
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -2.3639039118910414
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 2.0715490191971977
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.90998044936644
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.3208724496071147
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.8377757127725496
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.6312198837184861
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -2.8756587201706827
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 3.0735477639426594
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -2.3968430997889874
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 2.850913717661757
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.858283725406678
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -0.3618207114254597
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 2.6499958229884397
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.1878721185906755
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.281907740030975
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.8826174359880397
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.1901232890543278
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -2.6148836623289675
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.1039631337459443
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 2.511874969110795
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -0.05894399133318595
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.052593000985679
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.5573612768823057
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.40388539139307733
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 2.93284499153824
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 2.1472779586332127
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 2.253843050238297
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -3.061685437881568
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": -1.4606897097208913
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        1
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.544026779329819
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.6406279669866826
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 3.0973870246575355
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.698441626825786
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.2114242662285264
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.8160962611367748
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 2.467287581895532
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5068204352512702
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -2.2665808268780827
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 2.37470606925851
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.9260484632401509
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.6328159563316766
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": -0.2964083106815194
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.974761987362834
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        2
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": -3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 0.7243789238314178
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        3
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        3
+      ],
+      "angle": 1.5034152899113242
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 3.141592653589793
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "angle": 1.5707963267948966
+    }
+  ],
+  "decoder": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "budget": {
+    "cz": 86,
+    "sx": 236,
+    "rz": 337,
+    "latch_us": 25.96,
+    "decoded_us": 26.060000000000002,
+    "operator_error": 3.368665166725063e-14,
+    "frobenius_error": 2.7713789940141965e-14,
+    "route_swaps": 0
+  }
+}
